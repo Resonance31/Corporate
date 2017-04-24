@@ -1,0 +1,250 @@
+.container {
+width: 1349px;
+margin: 0 auto;
+}
+
+header .header__bg img {
+  position: absolute;
+  width: 1349px;
+  height: 760px;
+}
+
+header h1 {
+  position: absolute;
+  width: 665px;
+  margin-top: 125px;
+  margin-left: 348px;
+  text-align: center;
+  color: #585b5c;
+  font-size: 60px;
+  font-family: 'Exo', sans-serif;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+header .header__play img {
+  position: absolute;
+  margin-top: 310px;
+  margin-left: 650px;
+  opacity: 0.7;
+}
+
+header .header__play img:hover {
+  position: absolute;
+  margin-top: 305px;
+  margin-left: 650px;
+  opacity: 0.7;
+  
+}
+
+header button {
+  z-index: 2;
+  position: absolute;
+  margin-top: 410px;
+  margin-left: 585px;
+	background: #ed6950;
+  color: white;
+	font-size: 16px;
+  width: 190px;
+  height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-family: 'Exo', sans-serif;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+header button:hover {
+  z-index: 2;
+  position: absolute;
+  margin-top: 410px;
+  margin-left: 585px;
+	background: #e75e44;
+  color: white;
+	font-size: 16px;
+  width: 190px;
+  height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-family: 'Exo', sans-serif;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+header p {
+  position: absolute;
+  margin-top: 475px;
+  margin-left: 585px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  font-size: 14px;
+  font-family: 'Exo', sans-serif;
+  font-weight: bold;
+  opacity: 0.65;
+}
+
+.description .new_design {
+  width: 765px;
+  margin-top: 861px;
+}
+
+.new_design {
+  position: absolute;
+  margin-top: 492px;
+}
+
+.new_design h2 {
+  margin-left: 100px;
+  margin-bottom: -35px;
+  font-size: 16px;
+  color: #ff6d6d;
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  letter-spacing: 3.2px;
+}
+
+.new_design h3 {
+  width: 540px;
+  font-size: 40px;
+  margin-left: 100px;
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+}
+
+.new_design p {
+  width: 543px;
+  margin-left: 100px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+}
+
+.new_design img {
+  display: inline-block;
+  position: absolute;
+  margin-top: -525px;
+  margin-left: 815px;
+  z-index: 2;
+}
+
+.new_features {
+  position: absolute;
+  margin-top: 1558px;
+}
+
+.new_features h2 {
+  position: absolute;
+  width: 160px;
+  margin-left: 600px;
+  margin-bottom: -35px;
+  font-size: 16px;
+  color: #ff6d6d;
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  letter-spacing: 3.2px;
+  z-index: 2;
+}
+
+.new_features h3 {
+  position: absolute;
+  width: 540px;
+  font-size: 40px;
+  margin-left: 435px;
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  z-index: 2;
+}
+
+.new_features img {
+  position: absolute;
+  margin-top: -133px;
+  z-index: 1;
+}
+
+.left-column {
+  position: absolute;
+  width: 330px;
+  margin-top: 225px;
+  margin-left: 50px;
+  z-index: 2;
+}
+
+.left-column img {
+  margin-left: 130px;
+  margin-top: -80px;
+}
+
+.left-column h4 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.left-column p {
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  color: #858584;
+}
+
+.middle-column {
+  position: absolute;
+  width: 330px;
+  margin-top: 225px;
+  margin-left: 510px;
+  z-index: 2;
+}
+
+.middle-column img {
+  margin-left: 130px;
+  margin-top: -80px;
+}
+
+.middle-column h4 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.middle-column p {
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  color: #858584;
+  
+}
+
+.right-column {
+  position: absolute;
+  width: 330px;
+  margin-top: 225px;
+  margin-left: 960px;
+  z-index: 2;
+}
+
+.right-column img {
+  margin-left: 130px;
+  margin-top: -80px;
+}
+
+.right-column h4 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.right-column p {
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  color: #858584;
+}
