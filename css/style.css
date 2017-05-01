@@ -31,10 +31,11 @@ header .header__play img {
 
 header .header__play img:hover {
   position: absolute;
-  margin-top: 305px;
+  margin-top: 310px;
   margin-left: 650px;
   opacity: 0.7;
-  
+  transform: rotate(360deg);
+  transition-duration: 1.5s;
 }
 
 header button {
@@ -86,6 +87,7 @@ header p {
   font-family: 'Exo', sans-serif;
   font-weight: bold;
   opacity: 0.65;
+  
 }
 
 .description .new_design {
@@ -144,7 +146,7 @@ header p {
   position: absolute;
   width: 160px;
   margin-left: 600px;
-  margin-bottom: -35px;
+  margin-top: -10px;
   font-size: 16px;
   color: #ff6d6d;
   font-family: 'Exo', sans-serif;
@@ -158,6 +160,7 @@ header p {
   width: 540px;
   font-size: 40px;
   margin-left: 435px;
+  margin-top: 15px;
   font-family: 'Exo', sans-serif;
   font-weight: 500;
   letter-spacing: 1.6px;
@@ -242,6 +245,140 @@ header p {
 }
 
 .right-column p {
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  color: #858584;
+}
+
+.new_design_2 {
+  position: absolute;
+  margin-top: 1845px;
+}
+
+.new_design_2 img:nth-child(1) {
+  width: 600px;
+  display: block;
+}
+
+.new_design_2 img:nth-child(2) {
+  position: absolute;
+  display: block;
+  margin-top: -1175px;
+  margin-left: 85px;;
+}
+
+.new_design_2 h2 {
+  position: absolute;
+  margin-left: 700px;
+  margin-top: -1150px;
+  font-size: 16px;
+  color: #ff6d6d;
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  letter-spacing: 3.2px;
+}
+
+.new_design_2 h3 {
+  width: 540px;
+  font-size: 40px;
+  margin-top: -1110px;
+  margin-left: 700px;
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+}
+
+.new_design_2 p {
+  width: 543px;
+  margin-left: 700px;
+  font-size: 16px;
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  color: #858584;
+}
+
+.clients {
+  position: absolute;
+  margin-top: 2595px;
+}
+
+/* Колонки к следующей секции */
+
+.left-column_2 {
+  position: absolute;
+  width: 330px;
+  margin-top: -400px;
+  margin-left: 50px;
+  z-index: 2;
+}
+
+.left-column_2 img {
+  margin-left: 130px;
+  margin-top: -80px;
+}
+
+.left-column_2 h4 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.left-column_2 p {
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  color: #858584;
+}
+
+.middle-column_2 {
+  position: absolute;
+  width: 330px;
+  margin-top: -400px;
+  margin-left: 510px;
+  z-index: 2;
+}
+
+.middle-column_2 img {
+  margin-left: 130px;
+  margin-top: -80px;
+}
+
+.middle-column_2 h4 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.middle-column_2 p {
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  color: #858584;
+  
+}
+
+.right-column_2 {
+  position: absolute;
+  width: 330px;
+  margin-top: -400px;
+  margin-left: 960px;
+  z-index: 2;
+}
+
+.right-column_2 img {
+  margin-left: 130px;
+  margin-top: -80px;
+}
+
+.right-column_2 h4 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.right-column_2 p {
   font-size: 16px;
   text-align: center;
   font-family: 'Exo', sans-serif;

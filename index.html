@@ -5,6 +5,7 @@
   <title>Corporate</title>
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/4.1.1/normalize.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link href="https://fonts.googleapis.com/css?family=Exo:100,400,500" rel="stylesheet">
 </head>
 <body>
@@ -16,42 +17,75 @@
     <div class="header__bg">
       <img src="images/header_bg.png" alt="">
     </div>
-    <h1>There is no other <br> platforms for you as like </h1>
-    <div class="header__play">
+    <h1 class="wow bounceInDown">There is no other <br> platforms for you as like </h1>
+    <div class="header__play wow bounceInDown">
       <img src="images/play.png" alt="">
     </div>
+    <div class="wow bounceInUp">
     <button>TRY NOW</button>
     <p>* No need to add cards details</p>
+    </div>
   </header>
   <div class="description">
     <section class="new_design">
-      <h2>NEW DESIGN</h2>
-      <h3>There is no other platforms for you as like ....</h3>
-      <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper.</p>
-      <p>Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-      <img src="images/section_design.png" alt="">
+      <h2 class="wow bounceInLeft" data-wow-offset="100">NEW DESIGN</h2>
+      <h3 class="wow bounceInLeft" data-wow-offset="100">There is no other platforms for you as like ....</h3>
+      <p class="wow bounceInLeft" data-wow-offset="100">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper.</p>
+      <p class="wow bounceInLeft" data-wow-offset="100">Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
+      <img class="wow flash" data-wow-offset="100" src="images/section_design.png" alt="">
     </section>
     <section class="new_features">
-      <h2>NEW FEATURES</h2>
-      <h3>Some awesone features</h3>
-      <img src="images/features.png" alt="">
-      <div class="left-column">
+      <h2 class="wow bounceInUp">NEW FEATURES</h2>
+      <h3 class="wow bounceInUp">Some awesone features</h3>
+      <img class="wow flash" src="images/features.png" alt="">
+      <div class="left-column wow bounceInLeft" data-wow-offset="150">
         <img src="images/picture.png" alt="">
         <h4>Some awesone features</h4>
         <p>Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
       </div>
-      <div class="middle-column">
+      <div class="middle-column wow bounceInUp" data-wow-offset="150" >
         <img src="images/airplane.png" alt="">
         <h4>Some awesone features</h4>
         <p>Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
       </div>
-      <div class="right-column">
+      <div class="right-column wow bounceInRight" data-wow-offset="150" >
         <img src="images/bulb.png" alt="">
         <h4>Some awesone features</h4>
         <p>Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
       </div>
     </section>
+    <section class="new_design_2">
+      <img class="wow flash" src="images/Rectangle.png" alt="">
+      <img class="wow flash" data-wow-offset="300" src="images/macbook.png" alt="">
+      <h2 class="wow bounceInRight">NEW DESIGN</h2>
+      <h3 class="wow bounceInRight">Resposive design, just need your tap ....</h3>
+      <p class="wow bounceInRight">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Etiasem malesuada magn. Vestibulum felis euismod semper.</p>
+    </section>
+    <section class="clients">
+      <img src="images/Clients_bg.png" alt="">
+      <div class="left-column_2">
+        <img src="images/picture.png" alt="">
+        <h4>Some awesone features</h4>
+        <p>Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
+      </div>
+      <div class="middle-column_2">
+        <img src="images/airplane.png" alt="">
+        <h4>Some awesone features</h4>
+        <p>Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
+      </div>
+      <div class="right-column_2">
+        <img src="images/bulb.png" alt="">
+        <h4>Some awesone features</h4>
+        <p>Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
+      </div>
+      <img src="images/partner-logo.png" alt="">
+    </section>
   </div>
 </main>
+<!-- Скрипт для анимации -->
+<script src="js/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
 </body>
 </html>
